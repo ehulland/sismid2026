@@ -56,14 +56,14 @@ passcode** the instructor gives out on the day.
 From a terminal in your Codespace:
 
 ```bash
-source scripts/agent-login.sh
+source scripts/claude-login.sh
 ```
 
 Enter the class passcode when prompted. This decrypts the shared **Claude Code** token so
 `claude` picks it up automatically. (Codex has its own step below; Antigravity uses your
 own free Google login.)
 
-- You must use `source` (not `bash scripts/agent-login.sh`), or the variables will not
+- You must use `source` (not `bash scripts/claude-login.sh`), or the variables will not
   stick to your shell.
 - You only need to do this **once per Codespace**. The unlock also saves the token to
   your `~/.bashrc`, so new terminals and a Codespace restart stay logged in. (If you
@@ -83,30 +83,31 @@ screen; the terminal is the supported path for this class.
 That flag lets the agent read, edit, and run commands **without stopping to ask each
 time**. We use it on purpose so you see what an autonomous agent actually does, and it
 is safe here because your Codespace is a disposable container, not your own machine.
-`source scripts/agent-login.sh` already completed Claude Code's first-run setup for you,
+`source scripts/claude-login.sh` already completed Claude Code's first-run setup for you,
 so it opens straight to the prompt with no login screen.
 
 ### Codex: get your own credential from the class broker
 
 Codex uses a **separate, per-student** credential handed out by a small class server, so
-no two students share one login. Once, in your Codespace:
+no two students share one login. The server URL is already baked into the script. Once,
+in your Codespace:
 
 ```bash
-bash scripts/codex-login.sh http://HOST:PORT   # URL announced in class
+bash scripts/codex-login.sh
 ```
 
-Enter **your email** and the **class passcode**. It fetches your own credential into
+Enter the **class passcode** when prompted. It fetches your own credential into
 `~/.codex/auth.json`, then just run:
 
 ```bash
 codex
 ```
 
-The server assigns you one credential and remembers it **by your email**, so if your
-Codespace restarts (or you make a new one) and you enter the same email, you get the
-**same** credential back, never someone else's. If it says the pool is empty, the passcode
-is wrong, or your email is not on the roster, tell the instructor. The script will not
-overwrite an existing `~/.codex/auth.json`, so run it only once per Codespace.
+The server identifies you by your **GitHub username** and remembers which credential is
+yours, so if your Codespace restarts (or you make a new one) you get the **same** one
+back, never someone else's. If it says the pool is empty or the passcode is wrong, tell
+the instructor. The script will not overwrite an existing `~/.codex/auth.json`, so run it
+only once per Codespace.
 
 ### Antigravity: bring your own free login
 
@@ -158,33 +159,42 @@ class hard-fails (concurrent clients trip refresh-token reuse). So generate **on
 credential per student** and hand them out with a small server that never gives the same
 one to two students.
 
-```bash
-# 1. Generate N device credentials (each is a separate device authorization):
-mkdir -p ~/sismid-creds
-for i in $(seq -w 1 20); do
-  CODEX_HOME=~/sismid-creds/tmp codex login --device-auth   # approve in browser
-  mv ~/sismid-creds/tmp/auth.json ~/sismid-creds/auth-$i.json
-done
+The broker and its credentials live **outside this repo** (in `~/sismid-creds/`, which is
+never committed) because they hold real ChatGPT logins. The scripts there:
 
-# 2. Deploy the broker + creds to your always-on host and start it:
-scripts/deploy-codex-server.sh always-on ~/sismid-creds sismid-codex 8080
-#    then follow the printed steps: set the passcode file, open the firewall, ./start.sh
+```bash
+# 1. Generate N device credentials (resumable: re-run after a rate-limit and it
+#    skips the ones already saved). Each `codex login` opens a browser to approve.
+~/sismid-creds/scripts/gen-creds.sh            # fills auth-01.json .. auth-20.json
+
+# 2. Sanity-check any credential in a clean container before class:
+~/sismid-creds/scripts/test-cred.sh all
+
+# 3. Deploy the broker to your always-on host as a systemd service over HTTPS:
+CLASS_PASSWORD='your-class-passcode' ~/sismid-creds/server/deploy-vm.sh
 ```
 
-The broker (`server/serve.py`) requires each student's **email plus the passcode**,
-assigns distinct credentials keyed by email (so `state.json` is your roster of who has
-which), and exposes `/status` to watch usage. To restrict claims to a known class list,
-put one email per line in a file and start with `SISMID_ALLOW=/path/to/emails.txt`;
-without it, any valid email is accepted. Keep in mind:
+The broker assigns distinct credentials keyed by **GitHub username** (idempotent: the same
+student always gets the same one), gates every request on the single class passcode, and
+exposes admin endpoints:
+
+```bash
+curl -sk 'https://HOST:8443/status'  -H 'X-Class-Password: PASS'   # who has which
+curl -sk 'https://HOST:8443/release?who=USER&pw=PASS' -X POST      # free one back
+curl -sk 'https://HOST:8443/reset?pw=PASS'            -X POST      # clear all
+```
+
+Keep in mind:
 
 - **Capacity:** 20 device codes from one ChatGPT account is still ONE subscription's rate
   limit shared 20 ways; it does not multiply seats. Fine for bursty use on ChatGPT Pro, it
   will throttle under fully synchronized load. The account may also cap concurrent sessions.
-- **Transit:** plain HTTP sends the passcode and credential in the clear. Use a strong
-  passcode, take the server down after class (`./stop.sh` + delete the firewall rule), and
-  rotate the ChatGPT logins afterward.
-- **Never commit** `creds/`, `state.json`, or `passcode`; `.gitignore` blocks `auth-*.json`
-  and friends. If you want independent capacity instead, use `OPENAI_API_KEY` (above).
+- **Transit:** the broker serves HTTPS with a self-signed cert (clients use `curl -k`), so
+  the passcode and credential are encrypted in transit. Take the server down after class
+  and rotate the ChatGPT logins afterward.
+- **Never commit** the credentials or passcode. `.gitignore` blocks `auth-*.json`,
+  `server/creds/`, `state.json`, and `passcode`; the live broker and creds are kept in
+  `~/sismid-creds/`, off the repo entirely.
 
 ## If you cannot get an agent working
 

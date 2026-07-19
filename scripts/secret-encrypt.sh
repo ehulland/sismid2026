@@ -55,7 +55,7 @@ if printf '%s' "$SECRET_VALUE" \
       -pass env:SECRET_ENC_PASS > "$OUT"; then
   unset SECRET_ENC_PASS SECRET_VALUE PASSPHRASE PASSPHRASE2
   echo "Wrote $OUT" >&2
-  echo "This .enc file is safe to commit. Students unlock it with scripts/agent-login.sh." >&2
+  echo "This .enc file is safe to commit. Students unlock it with scripts/claude-login.sh." >&2
 else
   unset SECRET_ENC_PASS SECRET_VALUE PASSPHRASE PASSPHRASE2
   rm -f "$OUT"

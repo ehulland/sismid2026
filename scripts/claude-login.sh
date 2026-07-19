@@ -2,7 +2,7 @@
 #
 # IMPORTANT: run this with `source`, not `bash`, or the variables won't stick:
 #
-#     source scripts/agent-login.sh
+#     source scripts/claude-login.sh
 #
 # It asks once for the class passcode (given by the instructor in class), decrypts
 # every secrets/*.enc into an environment variable, and the agents (claude, codex)

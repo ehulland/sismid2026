@@ -1,38 +1,50 @@
 #!/usr/bin/env bash
-# Install the AI coding agents used in SISMID 2026.
-# This installs the CLIs only. It does NOT authenticate you; see docs/agent-setup.md.
+# SISMID 2026 - install the AI coding agents.
+#
+#     bash scripts/setup-agents.sh
+#
+# Installs the command-line agents only. It does NOT log you in.
+# Logging in is a separate, one-line step per agent (see the end of this script).
 set -euo pipefail
 
-echo "==> Checking Node / npm..."
-if ! command -v npm >/dev/null 2>&1; then
-  echo "npm not found. This should be present in the Codespace. If running locally,"
-  echo "install Node.js LTS first: https://nodejs.org/"
+need_npm() {
+  command -v npm >/dev/null 2>&1 && return 0
+  echo "npm not found. In a Codespace it is preinstalled; locally, install Node LTS" >&2
+  echo "from https://nodejs.org/ and re-run." >&2
   exit 1
-fi
-node --version
-npm --version
+}
 
-echo "==> Installing OpenAI Codex CLI (@openai/codex)..."
-npm install -g @openai/codex
+install_npm_agent() {  # name  npm-package
+  echo "==> $1"
+  npm install -g "$2" >/dev/null
+}
 
-echo "==> Installing Anthropic Claude Code (@anthropic-ai/claude-code)..."
-npm install -g @anthropic-ai/claude-code
+need_npm
+echo "Node $(node --version), npm $(npm --version)"
+echo
 
-echo "==> Installing Google Antigravity CLI (agy)..."
-# Antigravity CLI is not on npm; it ships its own installer (macOS/Linux).
-# It replaces the Gemini CLI, whose free individual login is retired on 2026-06-18.
-# Non-fatal: Antigravity is the optional backup agent, so a hiccup here must not abort
-# the script after Codex and Claude Code already installed successfully.
-curl -fsSL https://antigravity.google/cli/install.sh | bash \
-  || echo "   (Antigravity install failed - it is the optional backup agent; retry later or skip.)"
+install_npm_agent "OpenAI Codex"          "@openai/codex"
+install_npm_agent "Anthropic Claude Code" "@anthropic-ai/claude-code"
+
+# Google Antigravity is the optional backup agent. It is not on npm and ships its
+# own installer, so a hiccup here must not abort a script that already installed
+# Codex and Claude Code successfully.
+echo "==> Google Antigravity (optional backup)"
+curl -fsSL https://antigravity.google/cli/install.sh | bash >/dev/null \
+  || echo "   (skipped - retry later; Codex and Claude Code are enough for class.)"
 
 echo
-echo "==> Installed versions:"
-codex --version 2>/dev/null || echo "codex: run 'codex --version' to check"
-claude --version 2>/dev/null || echo "claude: run 'claude --version' to check"
-agy --version 2>/dev/null || echo "agy: run 'agy --version' to check"
+echo "Installed:"
+printf '  codex   %s\n' "$(codex  --version 2>/dev/null || echo '?')"
+printf '  claude  %s\n' "$(claude --version 2>/dev/null || echo '?')"
+printf '  agy     %s\n' "$(agy    --version 2>/dev/null || echo 'not installed (optional)')"
 
-echo
-echo "Done. All three agents are installed but NOT logged in."
-echo "Authentication will be provided in class. See docs/agent-setup.md."
-echo "Never commit API keys or paste them into notebook cells."
+cat <<'NEXT'
+
+Agents are installed but NOT logged in. Log in (passcode from the instructor):
+
+  bash   scripts/codex-login.sh       # Codex
+  source scripts/claude-login.sh      # Claude Code
+
+Never paste API keys into notebook cells or commit them.
+NEXT
