@@ -1,0 +1,3 @@
+source,source_url,temporal_resolution,geographic_resolution,coverage_note,retrieved_at
+cbs_commuting_85481NED,https://opendata.cbs.nl/ODataApi/OData/85481NED,annual,municipality OD,"Worker jobs, in thousands at source; transformed to counts.",2026-07-21 16:15:42.886727+00:00
+cbs_rail_86172ENG,https://opendata.cbs.nl/ODataApi/OData/86172ENG,quarterly/annual,national,International rail journeys are not directional or station-specific.,2026-07-21 16:15:42.886727+00:00

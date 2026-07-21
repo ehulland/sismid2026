@@ -1,0 +1,453 @@
+period_start,period_end,source,mode,origin_id,origin_name,destination_id,destination_name,flow_value,flow_unit,is_international,is_entry_flow,coverage_note
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,NL00,"Nederland, Buitenland, Niet in te delen",GM0363,Amsterdam,723900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,NL01,Nederland,GM0363,Amsterdam,710000.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,NL99,Nederland; niet in te delen,GM0363,Amsterdam,13900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,LD01,Noord-Nederland (LD),GM0363,Amsterdam,9700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,LD02,Oost-Nederland (LD),GM0363,Amsterdam,54100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,LD03,West-Nederland (LD),GM0363,Amsterdam,628100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,LD04,Zuid-Nederland (LD),GM0363,Amsterdam,18100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,LD99,Niet in te delen (LD),GM0363,Amsterdam,13900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,PV20,Groningen (PV),GM0363,Amsterdam,3300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,PV21,Fryslân (PV),GM0363,Amsterdam,3900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,PV22,Drenthe (PV),GM0363,Amsterdam,2500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,PV23,Overijssel (PV),GM0363,Amsterdam,5200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,PV24,Flevoland (PV),GM0363,Amsterdam,34700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,PV25,Gelderland (PV),GM0363,Amsterdam,14100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,PV26,Utrecht (PV),GM0363,Amsterdam,48300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,PV27,Noord-Holland (PV),GM0363,Amsterdam,520900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,PV28,Zuid-Holland (PV),GM0363,Amsterdam,57900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,PV29,Zeeland (PV),GM0363,Amsterdam,1000.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,PV30,Noord-Brabant (PV),GM0363,Amsterdam,13800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,PV31,Limburg (PV),GM0363,Amsterdam,4300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,PV99,Niet in te delen (PV),GM0363,Amsterdam,13900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR01,Oost-Groningen (CR),GM0363,Amsterdam,600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR02,Delfzijl en omgeving (CR),GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR03,Overig Groningen (CR),GM0363,Amsterdam,2600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR04,Noord-Friesland (CR),GM0363,Amsterdam,1800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR05,Zuidwest-Friesland (CR),GM0363,Amsterdam,900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR06,Zuidoost-Friesland (CR),GM0363,Amsterdam,1200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR07,Noord-Drenthe (CR),GM0363,Amsterdam,1000.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR08,Zuidoost-Drenthe (CR),GM0363,Amsterdam,800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR09,Zuidwest-Drenthe (CR),GM0363,Amsterdam,600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR10,Noord-Overijssel (CR),GM0363,Amsterdam,2200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR11,Zuidwest-Overijssel (CR),GM0363,Amsterdam,800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR12,Twente (CR),GM0363,Amsterdam,2200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR13,Veluwe (CR),GM0363,Amsterdam,5400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR14,Achterhoek (CR),GM0363,Amsterdam,1400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR15,Arnhem/Nijmegen (CR),GM0363,Amsterdam,5500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR16,Zuidwest-Gelderland (CR),GM0363,Amsterdam,1800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR17,Utrecht (CR),GM0363,Amsterdam,48300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR18,Kop van Noord-Holland (CR),GM0363,Amsterdam,14600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR19,Alkmaar en omgeving (CR),GM0363,Amsterdam,12700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR20,IJmond (CR),GM0363,Amsterdam,14800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR21,Agglomeratie Haarlem (CR),GM0363,Amsterdam,25600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR22,Zaanstreek (CR),GM0363,Amsterdam,25900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR23,Groot-Amsterdam (CR),GM0363,Amsterdam,407400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR24,Het Gooi en Vechtstreek (CR),GM0363,Amsterdam,19800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR25,Agglomeratie Leiden en Bollenstreek (CR),GM0363,Amsterdam,15000.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR26,Agglomeratie 's-Gravenhage (CR),GM0363,Amsterdam,17200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR27,Delft en Westland (CR),GM0363,Amsterdam,2400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR28,Oost-Zuid-Holland (CR),GM0363,Amsterdam,6400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR29,Groot-Rijnmond (CR),GM0363,Amsterdam,15300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR30,Zuidoost-Zuid-Holland (CR),GM0363,Amsterdam,1700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR31,Zeeuwsch-Vlaanderen (CR),GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR32,Overig Zeeland (CR),GM0363,Amsterdam,800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR33,West-Noord-Brabant (CR),GM0363,Amsterdam,3000.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR34,Midden-Noord-Brabant (CR),GM0363,Amsterdam,2100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR35,Noordoost-Noord-Brabant (CR),GM0363,Amsterdam,4100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR36,Zuidoost-Noord-Brabant (CR),GM0363,Amsterdam,4600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR37,Noord-Limburg (CR),GM0363,Amsterdam,900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR38,Midden-Limburg (CR),GM0363,Amsterdam,1200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR39,Zuid-Limburg (CR),GM0363,Amsterdam,2200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR40,Flevoland (CR),GM0363,Amsterdam,34700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,CR99,Niet in te delen (CR),GM0363,Amsterdam,13900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1680,Aa en Hunze,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0358,Aalsmeer,GM0363,Amsterdam,3200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0197,Aalten,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0059,Achtkarspelen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0482,Alblasserdam,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0613,Albrandswaard,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0361,Alkmaar,GM0363,Amsterdam,6300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0141,Almelo,GM0363,Amsterdam,400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0034,Almere,GM0363,Amsterdam,29500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0484,Alphen aan den Rijn,GM0363,Amsterdam,2600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1723,Alphen-Chaam,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1959,Altena,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0060,Ameland,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0307,Amersfoort,GM0363,Amsterdam,5200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0362,Amstelveen,GM0363,Amsterdam,20200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0363,Amsterdam,GM0363,Amsterdam,319200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0200,Apeldoorn,GM0363,Amsterdam,1300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0202,Arnhem,GM0363,Amsterdam,2000.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0106,Assen,GM0363,Amsterdam,400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0743,Asten,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0744,Baarle-Nassau,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0308,Baarn,GM0363,Amsterdam,1000.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0489,Barendrecht,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0203,Barneveld,GM0363,Amsterdam,400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0888,Beek (L.),GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1954,Beekdaelen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0370,Beemster,GM0363,Amsterdam,,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0889,Beesel,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1945,Berg en Dal,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1724,Bergeijk,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0893,Bergen (L.),GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0373,Bergen (NH.),GM0363,Amsterdam,1100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0748,Bergen op Zoom,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1859,Berkelland,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1721,Bernheze,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0753,Best,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0209,Beuningen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0375,Beverwijk,GM0363,Amsterdam,3000.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0310,De Bilt,GM0363,Amsterdam,1200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1728,Bladel,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0376,Blaricum,GM0363,Amsterdam,800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0377,Bloemendaal,GM0363,Amsterdam,2100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1901,Bodegraven-Reeuwijk,GM0363,Amsterdam,600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0755,Boekel,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1681,Borger-Odoorn,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0147,Borne,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0654,Borsele,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0756,Boxmeer,GM0363,Amsterdam,,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0757,Boxtel,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0758,Breda,GM0363,Amsterdam,1500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0501,Brielle,GM0363,Amsterdam,,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1876,Bronckhorst,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0213,Brummen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0899,Brunssum,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0312,Bunnik,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0313,Bunschoten,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0214,Buren,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0502,Capelle aan den IJssel,GM0363,Amsterdam,600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0383,Castricum,GM0363,Amsterdam,2900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0109,Coevorden,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1706,Cranendonck,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1684,Cuijk,GM0363,Amsterdam,,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0216,Culemborg,GM0363,Amsterdam,500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0148,Dalfsen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1891,Dantumadiel,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0503,Delft,GM0363,Amsterdam,1800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0762,Deurne,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0150,Deventer,GM0363,Amsterdam,600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0384,Diemen,GM0363,Amsterdam,10300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1980,Dijk en Waard,GM0363,Amsterdam,3700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1774,Dinkelland,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0221,Doesburg,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0222,Doetinchem,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0766,Dongen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0505,Dordrecht,GM0363,Amsterdam,600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0498,Drechterland,GM0363,Amsterdam,900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1719,Drimmelen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0303,Dronten,GM0363,Amsterdam,700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0225,Druten,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0226,Duiven,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1711,Echt-Susteren,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0385,Edam-Volendam,GM0363,Amsterdam,3900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0228,Ede,GM0363,Amsterdam,1100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0317,Eemnes,GM0363,Amsterdam,400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1979,Eemsdelta,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0770,Eersel,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1903,Eijsden-Margraten,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0772,Eindhoven,GM0363,Amsterdam,2500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0230,Elburg,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0114,Emmen,GM0363,Amsterdam,500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0388,Enkhuizen,GM0363,Amsterdam,600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0153,Enschede,GM0363,Amsterdam,500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0232,Epe,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0233,Ermelo,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0777,Etten-Leur,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1940,De Fryske Marren,GM0363,Amsterdam,400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0779,Geertruidenberg,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1771,Geldrop-Mierlo,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1652,Gemert-Bakel,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0907,Gennep,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0784,Gilze en Rijen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1924,Goeree-Overflakkee,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0664,Goes,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0785,Goirle,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1942,Gooise Meren,GM0363,Amsterdam,7100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0512,Gorinchem,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0513,Gouda,GM0363,Amsterdam,1400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0786,Grave,GM0363,Amsterdam,,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0518,'s-Gravenhage (gemeente),GM0363,Amsterdam,11600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0014,Groningen (gemeente),GM0363,Amsterdam,1900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1729,Gulpen-Wittem,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0158,Haaksbergen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0392,Haarlem,GM0363,Amsterdam,19900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0394,Haarlemmermeer,GM0363,Amsterdam,19400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1655,Halderberge,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0160,Hardenberg,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0243,Harderwijk,GM0363,Amsterdam,500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0523,Hardinxveld-Giessendam,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0072,Harlingen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0244,Hattem,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0396,Heemskerk,GM0363,Amsterdam,2700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0397,Heemstede,GM0363,Amsterdam,2300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0246,Heerde,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0074,Heerenveen,GM0363,Amsterdam,400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0398,Heerhugowaard,GM0363,Amsterdam,,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0917,Heerlen,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1658,Heeze-Leende,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0399,Heiloo,GM0363,Amsterdam,1500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0400,Den Helder,GM0363,Amsterdam,1100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0163,Hellendoorn,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0530,Hellevoetsluis,GM0363,Amsterdam,,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0794,Helmond,GM0363,Amsterdam,400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0531,Hendrik-Ido-Ambacht,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0164,Hengelo (O.),GM0363,Amsterdam,400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0796,'s-Hertogenbosch,GM0363,Amsterdam,1900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0252,Heumen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0797,Heusden,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0534,Hillegom,GM0363,Amsterdam,1200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0798,Hilvarenbeek,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0402,Hilversum,GM0363,Amsterdam,7000.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1963,Hoeksche Waard,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1735,Hof van Twente,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1966,Het Hogeland,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1911,Hollands Kroon,GM0363,Amsterdam,1000.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0118,Hoogeveen,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0405,Hoorn,GM0363,Amsterdam,6100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1507,Horst aan de Maas,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0321,Houten,GM0363,Amsterdam,1300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0406,Huizen,GM0363,Amsterdam,2500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0677,Hulst,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0353,IJsselstein,GM0363,Amsterdam,700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1884,Kaag en Braassem,GM0363,Amsterdam,1100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0166,Kampen,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0678,Kapelle,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0537,Katwijk,GM0363,Amsterdam,1000.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0928,Kerkrade,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1598,Koggenland,GM0363,Amsterdam,1100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0542,Krimpen aan den IJssel,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1931,Krimpenerwaard,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1659,Laarbeek,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1982,Land van Cuijk,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1685,Landerd,GM0363,Amsterdam,,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0882,Landgraaf,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0415,Landsmeer,GM0363,Amsterdam,2700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0416,Langedijk,GM0363,Amsterdam,,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1621,Lansingerland,GM0363,Amsterdam,600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0417,Laren (NH.),GM0363,Amsterdam,700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0080,Leeuwarden,GM0363,Amsterdam,1000.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0546,Leiden,GM0363,Amsterdam,5700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0547,Leiderdorp,GM0363,Amsterdam,700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1916,Leidschendam-Voorburg,GM0363,Amsterdam,1700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0995,Lelystad,GM0363,Amsterdam,3600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1640,Leudal,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0327,Leusden,GM0363,Amsterdam,500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1705,Lingewaard,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0553,Lisse,GM0363,Amsterdam,800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0262,Lochem,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0809,Loon op Zand,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0331,Lopik,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0168,Losser,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0263,Maasdriel,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1641,Maasgouw,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1991,Maashorst,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0556,Maassluis,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0935,Maastricht,GM0363,Amsterdam,700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0420,Medemblik,GM0363,Amsterdam,1600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0938,Meerssen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1948,Meierijstad,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0119,Meppel,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0687,Middelburg (Z.),GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1842,Midden-Delfland,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1731,Midden-Drenthe,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1952,Midden-Groningen,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0815,Mill en Sint Hubert,GM0363,Amsterdam,,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1709,Moerdijk,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1978,Molenlanden,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1955,Montferland,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0335,Montfoort,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0944,Mook en Middelaar,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1740,Neder-Betuwe,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0946,Nederweert,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0356,Nieuwegein,GM0363,Amsterdam,1500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0569,Nieuwkoop,GM0363,Amsterdam,1000.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0267,Nijkerk,GM0363,Amsterdam,500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0268,Nijmegen,GM0363,Amsterdam,1500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1930,Nissewaard,GM0363,Amsterdam,400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1970,Noardeast-Fryslân,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1695,Noord-Beveland,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1699,Noordenveld,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0171,Noordoostpolder,GM0363,Amsterdam,400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0575,Noordwijk,GM0363,Amsterdam,1200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0820,"Nuenen, Gerwen en Nederwetten",GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0302,Nunspeet,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0579,Oegstgeest,GM0363,Amsterdam,1100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0823,Oirschot,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0824,Oisterwijk,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1895,Oldambt,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0269,Oldebroek,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0173,Oldenzaal,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1773,Olst-Wijhe,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0175,Ommen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1586,Oost Gelre,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0826,Oosterhout,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0085,Ooststellingwerf,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0431,Oostzaan,GM0363,Amsterdam,2000.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0432,Opmeer,GM0363,Amsterdam,400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0086,Opsterland,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0828,Oss,GM0363,Amsterdam,500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1509,Oude IJsselstreek,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0437,Ouder-Amstel,GM0363,Amsterdam,3400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0589,Oudewater,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1734,Overbetuwe,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0590,Papendrecht,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1894,Peel en Maas,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0765,Pekela,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1926,Pijnacker-Nootdorp,GM0363,Amsterdam,600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0439,Purmerend,GM0363,Amsterdam,16100.000000000002,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0273,Putten,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0177,Raalte,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0703,Reimerswaal,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0274,Renkum,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0339,Renswoude,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1667,Reusel-De Mierden,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0275,Rheden,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0340,Rhenen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0597,Ridderkerk,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1742,Rijssen-Holten,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0603,Rijswijk (ZH.),GM0363,Amsterdam,900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1669,Roerdalen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0957,Roermond,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0736,De Ronde Venen,GM0363,Amsterdam,4800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1674,Roosendaal,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0599,Rotterdam,GM0363,Amsterdam,10600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0277,Rozendaal,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0840,Rucphen,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0441,Schagen,GM0363,Amsterdam,1000.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0279,Scherpenzeel,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0606,Schiedam,GM0363,Amsterdam,700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0088,Schiermonnikoog,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1676,Schouwen-Duiveland,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0965,Simpelveld,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1702,Sint Anthonis,GM0363,Amsterdam,,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0845,Sint-Michielsgestel,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1883,Sittard-Geleen,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0610,Sliedrecht,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1714,Sluis,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0090,Smallingerland,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0342,Soest,GM0363,Amsterdam,1200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0847,Someren,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0848,Son en Breugel,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0037,Stadskanaal,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0180,Staphorst,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0532,Stede Broec,GM0363,Amsterdam,800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0851,Steenbergen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1708,Steenwijkerland,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0971,Stein (L.),GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1904,Stichtse Vecht,GM0363,Amsterdam,3800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1900,Súdwest-Fryslân,GM0363,Amsterdam,500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0715,Terneuzen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0093,Terschelling,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0448,Texel,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1525,Teylingen,GM0363,Amsterdam,1300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0716,Tholen,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0281,Tiel,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0855,Tilburg,GM0363,Amsterdam,1200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0183,Tubbergen,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1700,Twenterand,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1730,Tynaarlo,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0737,Tytsjerksteradiel,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0856,Uden,GM0363,Amsterdam,,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0450,Uitgeest,GM0363,Amsterdam,1200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0451,Uithoorn,GM0363,Amsterdam,3700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0184,Urk,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0344,Utrecht (gemeente),GM0363,Amsterdam,20200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1581,Utrechtse Heuvelrug,GM0363,Amsterdam,900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0981,Vaals,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0994,Valkenburg aan de Geul,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0858,Valkenswaard,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0047,Veendam,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0345,Veenendaal,GM0363,Amsterdam,500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0717,Veere,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0861,Veldhoven,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0453,Velsen,GM0363,Amsterdam,5100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0983,Venlo,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0984,Venray,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1961,Vijfheerenlanden,GM0363,Amsterdam,700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0622,Vlaardingen,GM0363,Amsterdam,400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0096,Vlieland,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0718,Vlissingen,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0986,Voerendaal,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1992,Voorne aan Zee,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0626,Voorschoten,GM0363,Amsterdam,700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0285,Voorst,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0865,Vught,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1949,Waadhoeke,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0866,Waalre,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0867,Waalwijk,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0627,Waddinxveen,GM0363,Amsterdam,500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0289,Wageningen,GM0363,Amsterdam,400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0629,Wassenaar,GM0363,Amsterdam,800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0852,Waterland,GM0363,Amsterdam,3300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0988,Weert,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0457,Weesp,GM0363,Amsterdam,,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1960,West Betuwe,GM0363,Amsterdam,400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0668,West Maas en Waal,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1969,Westerkwartier,GM0363,Amsterdam,300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1701,Westerveld,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0293,Westervoort,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1950,Westerwolde,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1783,Westland,GM0363,Amsterdam,500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0098,Weststellingwerf,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0614,Westvoorne,GM0363,Amsterdam,,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0189,Wierden,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0296,Wijchen,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1696,Wijdemeren,GM0363,Amsterdam,1700.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0352,Wijk bij Duurstede,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0294,Winterswijk,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0873,Woensdrecht,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0632,Woerden,GM0363,Amsterdam,1400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1690,De Wolden,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0880,Wormerland,GM0363,Amsterdam,1800.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0351,Woudenberg,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0479,Zaanstad,GM0363,Amsterdam,24100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0297,Zaltbommel,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0473,Zandvoort,GM0363,Amsterdam,1300.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0050,Zeewolde,GM0363,Amsterdam,500.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0355,Zeist,GM0363,Amsterdam,1600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0299,Zevenaar,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0637,Zoetermeer,GM0363,Amsterdam,1600.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0638,Zoeterwoude,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1892,Zuidplas,GM0363,Amsterdam,400.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0879,Zundert,GM0363,Amsterdam,0.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0301,Zutphen,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM1896,Zwartewaterland,GM0363,Amsterdam,100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0642,Zwijndrecht,GM0363,Amsterdam,200.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0193,Zwolle,GM0363,Amsterdam,1100.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2023-12-01,2023-12-31,cbs_commuting_85481NED,commute,GM0000,Gemeenten; niet in te delen,GM0363,Amsterdam,13900.0,worker_jobs,False,False,Annual worker-job OD snapshot; not observed border entry.
+2024-01-01,2024-03-31,cbs_rail_86172ENG,rail,unknown,Total journeys,NL,Netherlands rail network,94100000.0,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2024-04-01,2024-06-30,cbs_rail_86172ENG,rail,unknown,Total journeys,NL,Netherlands rail network,97500000.0,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2024-07-01,2024-09-30,cbs_rail_86172ENG,rail,unknown,Total journeys,NL,Netherlands rail network,89100000.0,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2024-10-01,2024-12-31,cbs_rail_86172ENG,rail,unknown,Total journeys,NL,Netherlands rail network,101900000.0,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2024-01-01,2024-12-31,cbs_rail_86172ENG,rail,unknown,Total journeys,NL,Netherlands rail network,382700000.0,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2025-01-01,2025-03-31,cbs_rail_86172ENG,rail,unknown,Total journeys,NL,Netherlands rail network,96100000.0,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2025-04-01,2025-06-30,cbs_rail_86172ENG,rail,unknown,Total journeys,NL,Netherlands rail network,96300000.0,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2025-07-01,2025-09-30,cbs_rail_86172ENG,rail,unknown,Total journeys,NL,Netherlands rail network,93100000.0,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2025-10-01,2025-12-31,cbs_rail_86172ENG,rail,unknown,Total journeys,NL,Netherlands rail network,103200000.0,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2025-01-01,2025-12-31,cbs_rail_86172ENG,rail,unknown,Total journeys,NL,Netherlands rail network,388700000.0,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2026-01-01,2026-03-31,cbs_rail_86172ENG,rail,unknown,Total journeys,NL,Netherlands rail network,92800000.0,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2024-01-01,2024-03-31,cbs_rail_86172ENG,rail,unknown,National journeys,NL,Netherlands rail network,,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2024-04-01,2024-06-30,cbs_rail_86172ENG,rail,unknown,National journeys,NL,Netherlands rail network,,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2024-07-01,2024-09-30,cbs_rail_86172ENG,rail,unknown,National journeys,NL,Netherlands rail network,,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2024-10-01,2024-12-31,cbs_rail_86172ENG,rail,unknown,National journeys,NL,Netherlands rail network,,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2024-01-01,2024-12-31,cbs_rail_86172ENG,rail,unknown,National journeys,NL,Netherlands rail network,371500000.0,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2025-01-01,2025-03-31,cbs_rail_86172ENG,rail,unknown,National journeys,NL,Netherlands rail network,,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2025-04-01,2025-06-30,cbs_rail_86172ENG,rail,unknown,National journeys,NL,Netherlands rail network,,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2025-07-01,2025-09-30,cbs_rail_86172ENG,rail,unknown,National journeys,NL,Netherlands rail network,,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2025-10-01,2025-12-31,cbs_rail_86172ENG,rail,unknown,National journeys,NL,Netherlands rail network,,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2025-01-01,2025-12-31,cbs_rail_86172ENG,rail,unknown,National journeys,NL,Netherlands rail network,376300000.0,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2026-01-01,2026-03-31,cbs_rail_86172ENG,rail,unknown,National journeys,NL,Netherlands rail network,,passenger_journeys,False,False,National activity only; international journeys are not directional or station-specific.
+2024-01-01,2024-03-31,cbs_rail_86172ENG,rail,unknown,International journeys,NL,Netherlands rail network,,passenger_journeys,True,False,National activity only; international journeys are not directional or station-specific.
+2024-04-01,2024-06-30,cbs_rail_86172ENG,rail,unknown,International journeys,NL,Netherlands rail network,,passenger_journeys,True,False,National activity only; international journeys are not directional or station-specific.
+2024-07-01,2024-09-30,cbs_rail_86172ENG,rail,unknown,International journeys,NL,Netherlands rail network,,passenger_journeys,True,False,National activity only; international journeys are not directional or station-specific.
+2024-10-01,2024-12-31,cbs_rail_86172ENG,rail,unknown,International journeys,NL,Netherlands rail network,,passenger_journeys,True,False,National activity only; international journeys are not directional or station-specific.
+2024-01-01,2024-12-31,cbs_rail_86172ENG,rail,unknown,International journeys,NL,Netherlands rail network,11200000.0,passenger_journeys,True,False,National activity only; international journeys are not directional or station-specific.
+2025-01-01,2025-03-31,cbs_rail_86172ENG,rail,unknown,International journeys,NL,Netherlands rail network,,passenger_journeys,True,False,National activity only; international journeys are not directional or station-specific.
+2025-04-01,2025-06-30,cbs_rail_86172ENG,rail,unknown,International journeys,NL,Netherlands rail network,,passenger_journeys,True,False,National activity only; international journeys are not directional or station-specific.
+2025-07-01,2025-09-30,cbs_rail_86172ENG,rail,unknown,International journeys,NL,Netherlands rail network,,passenger_journeys,True,False,National activity only; international journeys are not directional or station-specific.
+2025-10-01,2025-12-31,cbs_rail_86172ENG,rail,unknown,International journeys,NL,Netherlands rail network,,passenger_journeys,True,False,National activity only; international journeys are not directional or station-specific.
+2025-01-01,2025-12-31,cbs_rail_86172ENG,rail,unknown,International journeys,NL,Netherlands rail network,12400000.0,passenger_journeys,True,False,National activity only; international journeys are not directional or station-specific.
+2026-01-01,2026-03-31,cbs_rail_86172ENG,rail,unknown,International journeys,NL,Netherlands rail network,,passenger_journeys,True,False,National activity only; international journeys are not directional or station-specific.

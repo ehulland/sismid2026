@@ -1,0 +1,7 @@
+location_id,name,entry_point_type,country_code,is_border_entry_point
+NL-AMS-SCH,Amsterdam Airport Schiphol,airport,NL,True
+NL-RTM-HVH,Hook of Holland,ferry_terminal,NL,True
+NL-AMS-IJM,IJmuiden,ferry_terminal,NL,True
+NL-ARN,Arnhem Centraal,rail_border_station,NL,True
+NL-VEN,Venlo,rail_border_station,NL,True
+NL-MST,Maastricht,rail_border_station,NL,True
